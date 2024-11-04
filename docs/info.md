@@ -9,12 +9,9 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The PWM generates a 10 MHz PWM signal whose duty cycle can be adjusted using two buttons.
+The PWM duty cycle can be increased or decreased in steps, constrained between 10% and 90%.
 
 ## How to test
 
-Explain how to use your project
-
-## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Change the inputs ui_in to simulate button presses and check if the PWM duty cycle increases or decreases as expected.
